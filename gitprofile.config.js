@@ -104,6 +104,37 @@ const config = {
       link: 'https://example.com',
     },
   ],
+
+
+  // To hide the `My Projects` section, keep it empty.
+  externalProjects: [
+    {
+      title: 'Project Name',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Project Name',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+  ],
+
+  // Add the "Skills Showcase" section here.
+  externalProjects: [
+    {
+      title: 'Skills Showcase',
+      description: 'Description of your skills showcase.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com/skills-showcase',
+    },
+    // Add more sections or projects as needed
+  ],
+  
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev

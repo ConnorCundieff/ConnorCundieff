@@ -105,18 +105,29 @@ const config = {
     },
   ],
 
-
-  // Add the "Skills Showcase" section here.
+ // Add the "Skills Showcase" section here.
   skillsShowcase: [
     {
-      title: 'Skills Showcase',
-      description: 'Description of your skills showcase.',
+      title: 'Skill 1',
+      description: 'Description of your skill 1.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com/skills-showcase',
+      link: 'https://example.com/skills-showcase/skill1',
     },
-    // Add more sections or projects as needed
+    {
+      title: 'Skill 2',
+      description: 'Description of your skill 2.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com/skills-showcase/skill2',
+    },
+    {
+      title: 'Skill 3',
+      description: 'Description of your skill 3.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com/skills-showcase/skill3',
+    },
+    // Add more skills/items as needed.
   ],
-  
+
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev

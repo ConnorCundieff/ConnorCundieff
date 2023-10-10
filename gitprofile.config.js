@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/brenda-l-killingsworth/portfolio/blob/main/FakeResume.docx', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -50,11 +50,11 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'East Carolina University',
+      position: 'Professor',
+      from: 'August 1987',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://business.ecu.edu/faculty/killingsworthb/',
     },
     {
       company: 'Company Name',
@@ -66,21 +66,21 @@ const config = {
   ],
   /* certifications: [
     {
-      name: 'Lorem ipsum',
+      name: '(ISC)2 Certified in Cybersecurity (CC)',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      year: 'July 2023',
+      link: 'https://www.credly.com/badges/bd78fe7d-6520-44cb-bd90-76119bf1cf53/public_url'
     },
   ], */
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'East Carolina University',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '1977',
+      to: '1980',
     },
     {
-      institution: 'Institution Name',
+      institution: 'East Carolina University',
       degree: 'Degree',
       from: '2012',
       to: '2014',

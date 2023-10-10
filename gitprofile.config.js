@@ -107,7 +107,7 @@ const config = {
 
 
   // Add the "Skills Showcase" section here.
-  externalProjects: [
+  skillsShowcase: [
     {
       title: 'Skills Showcase',
       description: 'Description of your skills showcase.',

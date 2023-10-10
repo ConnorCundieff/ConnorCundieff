@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://github.com/brenda-l-killingsworth/portfolio/blob/main/FakeResume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1QC1mIwxuM7DYo-1xFBVFtyyn9dwxfpjn/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',

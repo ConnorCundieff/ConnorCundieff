@@ -15,6 +15,9 @@ const displaySection = (skillsShowcase) => {
 };
 
 const SkillsShowcase = ({ skillsShowcase, loading, googleAnalytics }) => {
+  console.log('SkillsShowcase component loaded.');
+  console.log('skillsShowcase:', skillsShowcase); // Log the skillsShowcase data.
+  console.log('loading:', loading); // Log the loading prop.
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < skillsShowcase.length; index++) {

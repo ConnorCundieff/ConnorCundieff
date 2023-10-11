@@ -10,6 +10,7 @@ import Experience from './experience';
 import Certification from './certification';
 import Education from './education';
 import Project from './project';
+import SkillsShowcase from './skills-showcase';
 import Blog from './blog';
 import Footer from './footer';
 import {
@@ -77,7 +78,7 @@ const GitProfile = ({ config }) => {
           return;
         }
 
-        sanitizedConfig.github.exclude.projects.forEach((project) => {
+        sanitizedConfig.github.exclude..forEach((project) => {
           excludeRepo += `+-repo:${sanitizedConfig.github.username}/${project}`;
         });
 
@@ -205,7 +206,12 @@ const GitProfile = ({ config }) => {
                       />
                       <ExternalProject
                         loading={loading}
-                        externalProjects={sanitizedConfig.externalProjects}
+                        external={sanitizedConfig.external}
+                        googleAnalytics={sanitizedConfig.googleAnalytics}
+                      />
+                      <SkillsShowcase
+                        loading={loading}
+                        skillsShowcase={sanitizedConfig.skillsShowcase}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
                       <Blog
@@ -240,7 +246,7 @@ GitProfile.propTypes = {
       limit: PropTypes.number,
       exclude: PropTypes.shape({
         forks: PropTypes.bool,
-        projects: PropTypes.array,
+        : PropTypes.array,
       }),
     }).isRequired,
     social: PropTypes.shape({
@@ -265,7 +271,8 @@ GitProfile.propTypes = {
       fileUrl: PropTypes.string,
     }),
     skills: PropTypes.array,
-    externalProjects: PropTypes.arrayOf(
+
+    external: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
@@ -273,6 +280,18 @@ GitProfile.propTypes = {
         imageUrl: PropTypes.string,
       })
     ),
+
+    skillsShowcase: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        link: PropTypes.string.isRequired,
+        imageUrl: PropTypes.string,
+      })
+    ),
+
+
+    
     experiences: PropTypes.arrayOf(
       PropTypes.shape({
         company: PropTypes.string,

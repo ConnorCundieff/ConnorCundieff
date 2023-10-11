@@ -1,4 +1,4 @@
-import axios from 'axios';
+aimport axios from 'axios';
 import { Fragment, useCallback, useEffect, useState } from 'react';
 import HeadTagEditor from './head-tag-editor';
 import ErrorPage from './error-page';
@@ -246,7 +246,7 @@ GitProfile.propTypes = {
       limit: PropTypes.number,
       exclude: PropTypes.shape({
         forks: PropTypes.bool,
-        : PropTypes.array,
+        someName: PropTypes.array,
       }),
     }).isRequired,
     social: PropTypes.shape({

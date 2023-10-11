@@ -245,7 +245,7 @@ GitProfile.propTypes = {
       limit: PropTypes.number,
       exclude: PropTypes.shape({
         forks: PropTypes.bool,
-        someName: PropTypes.array,
+        projects: PropTypes.array,
       }),
     }).isRequired,
     social: PropTypes.shape({

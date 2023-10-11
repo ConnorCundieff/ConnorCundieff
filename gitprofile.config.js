@@ -105,7 +105,7 @@ const config = {
     },
   ],
 
- // Add the "Skills Showcase" section here.
+ // Add the "Skills Showcase" section here. To hid this section, keep it empty.
   skillsShowcase: [
     {
       title: 'Skill 1',

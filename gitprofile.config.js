@@ -48,6 +48,7 @@ const config = {
     'Antd',
     'Tailwind',
   ],
+
   experiences: [
     {
       company: 'East Carolina University',
@@ -64,14 +65,16 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  // certification info goes here.
+  certifications: [
     {
       name: '(ISC)2 Certified in Cybersecurity (CC)',
       body: 'Lorem ipsum dolor sit amet',
       year: 'July 2023',
       link: 'https://www.credly.com/badges/bd78fe7d-6520-44cb-bd90-76119bf1cf53/public_url'
     },
-  ], */
+  ], 
+  
   education: [
     {
       institution: 'East Carolina University',

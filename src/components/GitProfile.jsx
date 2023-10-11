@@ -78,7 +78,7 @@ const GitProfile = ({ config }) => {
           return;
         }
 
-        sanitizedConfig.github.exclude..forEach((project) => {
+        sanitizedConfig.github.exclude.forEach((project) => {
           excludeRepo += `+-repo:${sanitizedConfig.github.username}/${project}`;
         });
 

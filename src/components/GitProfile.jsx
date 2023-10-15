@@ -208,11 +208,13 @@ const GitProfile = ({ config }) => {
                         external={sanitizedConfig.external}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
+                     /*
                       <SkillsShowcase
                         loading={loading}
                         skillsShowcase={sanitizedConfig.skillsShowcase}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
+                      */
                       <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
@@ -279,7 +281,7 @@ GitProfile.propTypes = {
         imageUrl: PropTypes.string,
       })
     ),
-
+/*
     skillsShowcase: PropTypes.arrayOf(
       PropTypes.shape({
         title: PropTypes.string.isRequired,
@@ -288,7 +290,7 @@ GitProfile.propTypes = {
         imageUrl: PropTypes.string,
       })
     ),
-
+*/
 
     
     experiences: PropTypes.arrayOf(

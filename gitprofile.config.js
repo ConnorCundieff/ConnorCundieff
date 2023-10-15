@@ -109,7 +109,7 @@ const config = {
   ],
 
  // Add the "Skills Showcase" section here. To hide this section, keep it empty.
-  skillsShowcase: [
+ /* skillsShowcase: [
     {
       title: 'Skill 1',
       description: 'Description of your skill 1.',
@@ -131,6 +131,7 @@ const config = {
     // Add more skills/items as needed.
   ],
 
+  */
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev

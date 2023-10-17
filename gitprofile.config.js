@@ -65,6 +65,7 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
+
   // certification info goes here.
   certifications: [
     {

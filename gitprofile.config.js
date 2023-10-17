@@ -130,8 +130,8 @@ const config = {
     },
     // Add more skills/items as needed.
   ],
-
   */
+
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev

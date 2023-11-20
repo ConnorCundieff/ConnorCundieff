@@ -94,15 +94,15 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
-      description:
+      title: 'System Analysis and Design Project',
+      description: Group project with in-depth analysis and design implementation on the systemo of a small company in Greenville, NC
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
     {
-      title: 'Project Name',
-      description:
+      title: 'Elevator Pitch',
+      description: Learn about me and skills sets and applying them to my future careers
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',

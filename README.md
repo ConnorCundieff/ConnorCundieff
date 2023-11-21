@@ -205,7 +205,7 @@ All the magic happens in the file `gitprofile.config.js`. Open it and modify it 
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ConnorCundieff', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 8, // How many projects to display.
     exclude: {
@@ -214,7 +214,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/connor-cundieff-136961254/',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -261,10 +261,10 @@ const config = {
   ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'East Carolina University',
+      degree: 'Bachelors in Business Administration',
+      from: '2021',
+      to: '2023',
     },
     {
       institution: 'Institution Name',

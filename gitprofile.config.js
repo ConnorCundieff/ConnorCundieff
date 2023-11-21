@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'ConnorCundieff', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'ConnorCundieff',
     twitter: 'arif_szn',
     mastodon: 'arifszn@mastodon.social',
     facebook: '',
@@ -25,12 +25,12 @@ const config = {
     skype: '',
     telegram: '',
     website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '919-441-2778',
+    email: 'connorcundieff@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -74,10 +74,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'East Carolina University',
+      degree: 'Bachelors in Business Managment',
+      from: '2021',
+      to: '2023',
     },
     {
       institution: 'Institution Name',
